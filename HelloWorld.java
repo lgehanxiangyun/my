@@ -10,6 +10,7 @@ class HelloWorld extends Activity{
         tv.setText("hello,world!");
         setContentView(tv);
         Toast.makeText("what is this").show();
+		System.out.println("whatever");
  }  
 
 }
