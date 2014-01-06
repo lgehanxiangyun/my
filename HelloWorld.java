@@ -1,10 +1,14 @@
 import android.app.Activity;
 import android.os.Bundle;
+import android.view.View
+import android.widget.TextView
 
 class HelloWorld extends Activity{
  public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.main);
+        TextView tv = new TextView(this);
+        tv.setText("hello,world!");
+        setContentView(tv);
  }  
 
 }
