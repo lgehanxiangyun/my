@@ -11,6 +11,7 @@ class HelloWorld extends Activity{
         setContentView(tv);
         Toast.makeText("what is this").show();
 		System.out.println("whatever");
+		System.out.println("NEW");
  }  
 
 }
